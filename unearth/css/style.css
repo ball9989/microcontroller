@@ -71,13 +71,13 @@
 
 .gradient-2, .site-footer, .top-bar {
   background: #7a5e86;
-  background: -moz-linear-gradient(left, #7a5e86 0%, #a75e67 51%, #f77b2e 100%);
-  background: -webkit-gradient(left top, right top, color-stop(0%, #7a5e86), color-stop(51%, #a75e67), color-stop(100%, #f77b2e));
-  background: -webkit-linear-gradient(left, #7a5e86 0%, #a75e67 51%, #f77b2e 100%);
-  background: -o-linear-gradient(left, #7a5e86 0%, #a75e67 51%, #f77b2e 100%);
-  background: -ms-linear-gradient(left, #7a5e86 0%, #a75e67 51%, #f77b2e 100%);
-  background: -webkit-gradient(linear, left top, right top, from(#7a5e86), color-stop(51%, #a75e67), to(#f77b2e));
-  background: linear-gradient(to right, #7a5e86 0%, #a75e67 51%, #f77b2e 100%);
+  background: -moz-linear-gradient(left, #6B799E 0%, #8CA6B3 51%, #D1DDDB 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #D1DDDB), color-stop(51%, #D1DDDB), color-stop(100%, #D1DDDB));
+  background: -webkit-linear-gradient(left, #6B799E 0%, #8CA6B3 51%, #D1DDDB 100%);
+  background: -o-linear-gradient(left, #6B799E 0%, #8CA6B3 51%, #D1DDDB 100%);
+  background: -ms-linear-gradient(left, #6B799E 0%, #8CA6B3 51%, #D1DDDB 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#283B42), color-stop(51%, #D1DDDB), to(#D1DDDB));
+  background: linear-gradient(to right, #6B799E 0%, #8CA6B3 51%, #D1DDDB 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7a5e86', endColorstr='#f77b2e', GradientType=1 ); }
 
 .font-gray-1 {
@@ -254,6 +254,7 @@ body {
 a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
+  color: #1D6A96;
   transition: .3s all ease; }
   a:hover {
     text-decoration: none; }
@@ -439,7 +440,7 @@ h1, h2, h3, h4, h5,
   .ul-check.success li:before {
     color: #71bc42; }
   .ul-check.primary li:before {
-    color: #ff8b00; }
+    color: #FE7773; }
 
 .select-wrap, .wrap-icon {
   position: relative; }
@@ -492,7 +493,7 @@ h1, h2, h3, h4, h5,
   .site-navbar .site-navigation .site-menu {
     margin-bottom: 0; }
     .site-navbar .site-navigation .site-menu .active {
-      color: #ff8b00 !important; }
+      color: #85B8CB !important; }
     .site-navbar .site-navigation .site-menu a {
       text-decoration: none !important;
       display: inline-block; }
@@ -666,12 +667,12 @@ h1, h2, h3, h4, h5,
       position: relative;
       color: #212529; }
       .site-mobile-menu .site-nav-wrap a:hover {
-        color: #ff8b00; }
+        color: #85B8CB; }
     .site-mobile-menu .site-nav-wrap li {
       position: relative;
       display: block; }
       .site-mobile-menu .site-nav-wrap li .nav-link.active {
-        color: #ff8b00; }
+        color: #85B8CB; }
     .site-mobile-menu .site-nav-wrap .arrow-collapse {
       position: absolute;
       right: 0px;
@@ -758,11 +759,11 @@ h1, h2, h3, h4, h5,
     -webkit-box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.2);
     box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.2); }
     .sticky-wrapper.is-sticky .site-navbar .site-logo a {
-      color: #ff8b00; }
+      color: #85B8CB; }
     .sticky-wrapper.is-sticky .site-navbar ul li a {
       color: #000 !important; }
       .sticky-wrapper.is-sticky .site-navbar ul li a.active {
-        color: #ff8b00 !important; }
+        color: #85B8CB !important; }
   .sticky-wrapper .shrink {
     padding-top: 0px !important;
     padding-bottom: 0px !important; }
@@ -838,7 +839,7 @@ h1, h2, h3, h4, h5,
 
 .block-heading-1 h2 {
   font-size: 3rem;
-  color: #ff8b00; }
+  color: #1D6A96 }
 
 .block-feature-1-wrap {
   margin-bottom: 7rem; }
@@ -990,7 +991,7 @@ h1, h2, h3, h4, h5,
       -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
       transform: translateX(-50%);
-      background: #ff8b00;
+      background: #1D6A96;
       height: 2px; }
     .block-testimony-1 figure img {
       max-width: 60px; }
@@ -1018,7 +1019,7 @@ h1, h2, h3, h4, h5,
       margin: 3px; }
     .block-13 .owl-dots .owl-dot.active span {
       width: 20px;
-      background: #ff8b00; }
+      background: #1D6A96; }
 
 .post-entry {
   background: #fff;
@@ -1217,7 +1218,7 @@ h1, h2, h3, h4, h5,
 
 .block__35630 .icon > span {
   font-size: 3rem;
-  color: #ff8b00; }
+  color: #1D6A96; }
 
 .block__35630 h3 {
   color: #000;
@@ -1240,7 +1241,7 @@ h1, h2, h3, h4, h5,
     color: #cccccc; }
     .pricing .price > span > span {
       font-size: 3rem;
-      color: #ff8b00; }
+      color: #1D6A96; }
   .pricing ul li {
     margin-bottom: 20px; }
 
