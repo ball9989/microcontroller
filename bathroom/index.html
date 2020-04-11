@@ -539,6 +539,7 @@
               <li class="mb-5" data-aos="fade-right" data-aos-delay="">
                 <!-- <span class="d-block text-muted mb-3">Apr 19, 2019</span> -->
                 <h2 class="h4"><a href="press-single.html" class="text-black">Arduino Uno R3</a></h2>
+                <img src="images/arduino uno r3.jpg" alt="Image" class="img-fluid rounded">
                 
                 <p>คือ ไมโครคอนโทรลเลอร์บอร์ดแบบสำเร็จรูปในยุคปัจจุบัน สามารถนำไปพัฒนาต่อเป็นอุปกรณ์ต่างๆ ได้</p>
               </li>
@@ -592,7 +593,11 @@
               <img src="images/setupedit.png" alt="Image" class="img-fluid rounded">
               <h2><a href=##testimonials-section>Library & void setup</a></h2>
               <p class="text-muted mb-3 mt-3 text-uppercase small"><span class="mr-2">arduino</span>
-              <p>บลาาาาาาาาาาาาาาาาาาาาาาาาาาาาา</p>
+              <p id="fontthai"> การต่อจอ LCD จะต้องมีการโหลด libary ของ "wire.h" <br> และ "LiquidCrystal_I2C.h" 
+              โดยต้องมีการบอก address ซึ่งทั่วไปจะมี 2 ตัว <br>คือ 0x27 และ 0x3F ขึ้นอยู่กับแต่ละคอมพิวเตอร์ 
+              <br>การต่อ sensor จะต้องมีการโหลด libary ของ "Ultrasonic.h"
+              <br>ทำการต่อสายไฟกับ HC-SR04 ULTRASONIC SENSOR โดยจะมีการต่อแบบ input และแบบ output
+              </p>
               <!-- <p><a href="single.html">Read More</a></p> -->
             </div>
           </div>
@@ -601,7 +606,11 @@
               <img src="images/loop.png" alt="Image" class="img-fluid rounded"></a>
               <h2><a href="##testimonials-section">void loopppppp</a></h2>
               <p class="text-muted mb-3 text-uppercase small"><span class="mr-2">arduino</span>
-              <p>บลาาาาาาาาาาาาาาาาาาาาาาาาาาาาา</p>
+              <p id="fontthai">ทำการแปลงค่าให้เป็นระยะทาง โดยใช้สูตร distance = duration * 0.034 / 2
+              <br>มีระยะเวลาดีเลย์ 0.5 วินาที มีการสร้างเงื่อนไขว่า ถ้าหากระยะทางจากประตูถึงชักโครกน้อยกว่าที่กำหนดไว้ 
+              คือ 30 cm. จะให้แสดงในจอ LCD แถวแรกว่า status <br> แถวที่สองว่า .......N/A...... 
+              <br> แต่ถ้าหากค่ามากกว่าหรือเท่ากับ 30  จะให้แสดงในจอ LCD แถวแรกว่า status <br> แถวที่สองว่า ......EMPTY.....
+              </p>
               <!-- <p><a href="single.html">Read More</a></p> -->
             </div>
           </div>
