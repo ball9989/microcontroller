@@ -20,6 +20,8 @@
 
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -416,15 +418,20 @@
               </div>
               <div class="form-group row">
                 <div class="col-md-6 ml-auto">
-                  <input type="submit" class="btn btn-block btn-primary text-white py-3 px-5" value="Send Message">
+                  <input type="submit" class="btn btn-block btn-warning text-white py-3 px-5" value="Send Message">
                 </div>
               </div>
             </form>
           </div>
-          <div class="col-lg-4 ml-auto" data-aos="fade-up" data-aos-delay="200">
-            <h2 class="text-black">Start for us</h2>
-            
-            <p><a href="#" class="btn btn-primary text-white">Submit</a></p>
+          <div class="col-lg-4 ml-auto mb-5" data-aos="fade-up" data-aos-delay="200">
+            <h2 class="text-black my-3" style="font-size: 30px;">Start for us</h2>
+            <span class="fa fa-star" id="change" onclick="myFunction()" ></span>
+            <span class="fa fa-star" id="change2" onclick="myFunction2()"></span>
+            <span class="fa fa-star" id="change3" onclick="myFunction3()"></span>
+            <span class="fa fa-star" id="change4" onclick="myFunction4()"></span>
+            <span class="fa fa-star" id="change5" onclick="myFunction5()"></span>
+
+            <p><a href="###" class="btn btn-warning text-white">Submit</a></p>
           </div>
         </div>
       </div>
@@ -466,6 +473,25 @@
 
   </div>
 
+  <script>
+    function myFunction() {
+       document.getElementById("change").style.color = "#1D6A96";
+    }
+    function myFunction2() {
+          document.getElementById("change2").style.color = "#1D6A96";
+    }
+    function myFunction3() {
+          document.getElementById("change3").style.color = "#1D6A96";
+    }
+    function myFunction4() {
+          document.getElementById("change4").style.color = "#1D6A96";
+    }
+    function myFunction5() {
+          document.getElementById("change5").style.color = "#1D6A96";
+    }
+
+  </script>
+
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
@@ -478,6 +504,8 @@
   <script src="js/aos.js"></script>
   
   <script src="js/main.js"></script>
+
+  
     
   </body>
 </html>
