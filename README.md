@@ -17,10 +17,10 @@
  # Program and language
  | Program        | Language       |
  | ---------------|----------------|
- | Arduino       | HTML           |
+ | Arduino       | C           |
  | vscode               | CSS            |
  |                | JavaScript     |
- |                | c     |
+ |                | HTML     |
 
 
 # Our website 
