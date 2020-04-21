@@ -18,7 +18,7 @@
  | Program        | Language       |
  | ---------------|----------------|
  | Arduino       | HTML           |
- |                | CSS            |
+ | c               | CSS            |
  |                | JavaScript     |
 
 
