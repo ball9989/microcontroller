@@ -18,8 +18,9 @@
  | Program        | Language       |
  | ---------------|----------------|
  | Arduino       | HTML           |
- | c               | CSS            |
+ | vscode               | CSS            |
  |                | JavaScript     |
+ |                | c     |
 
 
 # Our website 
